@@ -12,9 +12,54 @@
     combos {
         compatible = "zmk,combos";
 
-        workspace_1 {
+        combo_workspace_1 {
             bindings = <&kp LG(NUMBER_1)>;
             key-positions = <36 13>;
+        };
+
+        combo_workspace_2 {
+            bindings = <&kp LG(N2)>;
+            key-positions = <14 36>;
+        };
+
+        combo_workspace_3 {
+            bindings = <&kp LG(N3)>;
+            key-positions = <36 15>;
+        };
+
+        combo_workspace_4 {
+            bindings = <&kp LG(N4)>;
+            key-positions = <36 16>;
+        };
+
+        combo_workspace_5 {
+            bindings = <&kp LG(N5)>;
+            key-positions = <36 17>;
+        };
+
+        combo_workspace_6 {
+            bindings = <&kp LG(N6)>;
+            key-positions = <36 25>;
+        };
+
+        combo_workspace_7 {
+            bindings = <&kp LG(N7)>;
+            key-positions = <36 26>;
+        };
+
+        combo_workspace_8 {
+            bindings = <&kp LG(N8)>;
+            key-positions = <36 27>;
+        };
+
+        combo_workspace_9 {
+            bindings = <&kp LG(N9)>;
+            key-positions = <36 28>;
+        };
+
+        combo_workspace_0 {
+            bindings = <&kp LG(N0)>;
+            key-positions = <36 29>;
         };
     };
 
